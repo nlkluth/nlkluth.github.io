@@ -7,12 +7,12 @@
   <link rel="stylesheet" href="site.css">
 </head>
 <body>
-  <div class="greeting">
+  <div id="greeting" class="greeting">
     <p>Hello, My name is <span>Nathan.</span></p>
     <p>I am a developer living in Denver, CO.</p>
   </div>
 
-  <ul class="social">
+  <ul id="social" class="social">
     <li><a href="#" alt=""><i class="fa fa-github-alt"></i></a></li>
     <li><a href="#" alt=""><i class="fa fa-twitter"></i></a></li>
     <li><a href="#" alt=""><i class="fa fa-linkedin"></i></i></a></li>
@@ -20,7 +20,11 @@
 
   <script>
     (function() {
+      var greeting = document.getElementById('greeting');
+      var social = document.getElementById('social');
 
+      greeting.className += ' load';
+      social.className += ' load';
     })();
   </script>
 </body>
