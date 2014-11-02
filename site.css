@@ -1,7 +1,16 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #222;
   font-size: 4rem;
   background-color: #e0e0e0;
+}
+
+a {
+  color: #222;
+}
+
+a:hover {
+  color: #555;
 }
 
 .greeting {
@@ -9,11 +18,22 @@ body {
 }
 
 .greeting p {
-  background-color: yellow;
+  background-color: gold;
   display: inline-block;
   margin-bottom: 2%;
 }
 
 .social {
+  margin: 5%;
+  padding: 0;
   list-style: none;
+}
+
+.social li {
+  display: inline;
+  margin-left: 5%;
+}
+
+.social li:first-child {
+  margin-left: 0;
 }
