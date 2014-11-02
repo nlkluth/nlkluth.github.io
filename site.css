@@ -1,0 +1,19 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 4rem;
+  background-color: #e0e0e0;
+}
+
+.greeting {
+  margin: 5%;
+}
+
+.greeting p {
+  background-color: yellow;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.social {
+  list-style: none;
+}
